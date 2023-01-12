@@ -8,7 +8,7 @@ const JUMP_FORCE = 5
 const SPEED = 5
 
 export const Player = () => {
-    const { moveBackward, moveForward, moveLeft, moveRight, jump} = useKeyboard()
+    const { moveBackward, moveForward, moveLeft, moveRight, jump } = useKeyboard()
 
 
     const { camera } = useThree()
